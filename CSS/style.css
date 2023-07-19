@@ -269,10 +269,14 @@ body {
 }
 
 /*download section start*/
+#play{
+    position: relative;
+}
 .Download {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .Download-content {
@@ -286,21 +290,40 @@ body {
 .downloading-image img {
     width: 100%;
 }
-
+.play-photo{
+    
+        width: 5rem;
+        text-align: center;
+        padding: 2.9rem;
+        border-radius: .5rem;
+      
+        
+        position: absolute;
+        left: 56%;
+        bottom: -10%;
+        transform: translateX(-50%);
+    
+}
+.play-photo img{
+    width: 12rem;
+    height: 20rem;
+}
 /*sponsor section added*/
 
 
 .sponsor-group {
-    margin-top: 3rem;
+    margin: 3rem 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     gap: 3rem;
-    padding: 2rem 0;
-
 
 }
+
+
+
 
 .spons-item {
     display: flex;
@@ -321,7 +344,7 @@ body {
 .footer-bar {
     background-color: #0B0223;
     padding: 3rem;
-    
+
 
 
 }
