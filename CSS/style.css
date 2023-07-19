@@ -265,13 +265,16 @@ body {
 
 .card-content:hover {
     opacity: 1;
+    border: .3rem solid #F948B2;
+    border-radius: .9rem;
 
 }
 
 /*download section start*/
-#play{
+#play {
     position: relative;
 }
+
 .Download {
     display: flex;
     justify-content: space-between;
@@ -290,24 +293,25 @@ body {
 .downloading-image img {
     width: 100%;
 }
-.play-photo{
-    
-        width: 5rem;
-        text-align: center;
-        padding: 2.9rem;
-        border-radius: .5rem;
-      
-        
-        position: absolute;
-        left: 56%;
-        bottom: -10%;
-        transform: translateX(-50%);
-    
+
+.play-photo {
+
+    width: 5rem;
+    text-align: center;
+    padding: 2.9rem;
+    border-radius: .5rem;
+     position: absolute;
+    left: 56%;
+    bottom: -10%;
+    transform: translateX(-50%);
+
 }
-.play-photo img{
+
+.play-photo img {
     width: 12rem;
-    height: 20rem;
+    height: 12rem;
 }
+
 /*sponsor section added*/
 
 
@@ -366,4 +370,160 @@ body {
     font-weight: 500;
     padding-top: 2rem;
     gap: 3rem;
+}
+
+/*responsive section*/
+@media screen and (max-width: 576px) {
+
+    .container {
+        padding: 3rem .8rem;
+
+    }
+
+    .btn {
+        padding: .5rem .7rem;
+        font-size: .7rem;
+    }
+
+    /* ---header-section--- */
+    .navbar {
+        width: 100%;
+        padding: .8rem 0;
+        display: block;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: gray;
+        z-index: 11;
+    }
+
+    .navbar .logo {
+        font-size: 1.5rem;
+        color: white;
+
+    }
+
+    .navbar .nav-menu {
+        width: 100%;
+        padding: 1rem 0;
+        position: fixed;
+        left: 0;
+        top: 3%;
+        gap: .5rem;
+        background-color: white;
+    }
+
+    .nav-menu li a {
+        font-size: .8rem;
+    }
+
+    .banner-section {
+        flex-direction: column-reverse;
+
+        justify-content: center;
+    }
+
+    .banner-content {
+        width: 100%;
+
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .banner-text {
+        font-size: 2rem;
+    }
+
+
+    /*header section ended*/
+    .purpose-section {
+        flex-direction: column-reverse;
+    }
+
+
+    .purpose-content {
+        width: 100%;
+    }
+
+    .image-purpose {
+        width: 100%;
+    }
+    .image-purpose img{
+        width: 100%;
+    }
+
+    .purpose-small-text {
+        font-size: .5rem;
+    }
+
+    .purpose-title {
+        font-size: 1.5rem;
+    }
+
+    .purpose-text {
+        font-size: .5rem;
+    }
+
+    /*purpose section ended*/
+    .online-game-content{
+        width:100%;
+        text-align: center;
+    }
+    .online-game-title{
+        font-size: 1.5rem;
+    }
+    .online-game-text{
+        font-size: .8rem;
+    }
+    .card{
+        flex-direction: column;
+        gap:1rem;
+    }
+    .card-image{
+        width: 100%;
+    }
+    .card-image img{
+        width: 100%;
+    }
+    /*card section ended*/
+
+    .Download{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .Download-content{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .downloading-image{
+        width: 100%;
+    }
+    .downloading-image img{
+        width: 100%;
+    }
+    .play-photo{
+        height: 1rem;
+        width: 100%;
+        padding: 1rem 0;
+        bottom:58%;
+        
+
+    }
+
+
+    /* download section ended*/
+    
+
 }
