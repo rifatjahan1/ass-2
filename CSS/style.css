@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.mixed-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.color {
+    color: #FF42A5;
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 3rem;
+}
+
+.btn {
+    outline: none;
+    border: 0;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1.5rem;
+    color: white;
+
+
+    gap: 10px;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 2.6rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.logo img {
+    padding-right: .7rem;
+}
+
+.nav-menu>li {
+    list-style: none;
+    text-align: center;
+}
+
+.list-design {
+    padding: .4rem;
+    border-radius: .5rem;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.nav-menu>li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/*navbar ended*/
+
+
+/*banner section added*/
+
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+
+    background-image: url(../images/Group\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    padding: 2.5rem 2rem;
+
+}
+
+.banner-text {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title {
+
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+.banner-description {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.banner-image {
+    width: 40%;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+.button1 {
+    background-color: #F948B2;
+}
+
+.button2 {
+    background-color: darkturquoise;
+}
+
+/*banner section end*/
+
+
+.purpose-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    ;
+}
+
+.image-purpose {
+    width: 65%;
+}
+
+.purpose-content {
+    width: 35%;
+    text-align: right;
+}
+
+.image-purpose img {
+    width: 100%;
+}
+
+.purpose-title {
+    font-size: 3rem;
+    font-weight: 700;
+
+
+}
+
+.purpose-small-text {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+
+}
+
+.purpose-text {
+    color: #534C64;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/*purpose section ended*/
+.online-game-content {
+    padding: 50px;
+}
+
+.online-game-title {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.online-game-text {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+
+}
+
+.wrapper {
+
+    width: 100%;
+}
+
+.card-image {
+    width: 90%;
+
+    position: relative;
+
+}
+
+.card-image img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.card-content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    color: #F948B2;
+
+}
+
+.card-content:hover {
+    opacity: 1;
+
+}
+/*download section start*/
+.Download{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Download-content{
+    width:60%;
+}
+.downloading-image{
+    width:40%;
+}
+.downloading-image img{
+    width:100%;
+}
+/*sponsor section added*/
+
+
+.sponsor-group{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+ 
+
+}
